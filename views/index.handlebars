@@ -1,0 +1,27 @@
+<!-- views/index.handlebars -->
+<!Doctype html>
+<html>
+  <head>
+    <title></title>
+  </head>
+
+  <body>
+    <section id="quotes">
+    {{quote}} - {{attributed}} - {{source}}
+</section>
+
+<form action ="/" method="post">
+  <label for="attributed">Attributed to:</attributed>
+  <input id="attributed" name="attribute">
+
+  <label for="source">From:</attributed>
+  <input id="source" name="source">
+
+  <label for="quote">Quote:</attributed>
+  <textarea id="quote" name="quote"></textarea>
+
+  <input type="submit" name="submit">
+</form>
+  </body>
+
+  </html>
